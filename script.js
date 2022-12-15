@@ -1,16 +1,16 @@
 // Question 1 (Odd & Even)
 
-// var num = Number(prompt("Please enter the number"));
-// var numType = "";
+var num = Number(prompt("Please enter the number"));
+var numType = "";
 
-// if(num%2===1){
-//     numType = "Odd"
-// }
-// else if (num%2===0){
-//     numType = "Even"
-// }
+if(num%2===1){
+    numType = "Odd"
+}
+else if (num%2===0){
+    numType = "Even"
+}
 
-// console.log("The number entered by you is: " + numType)
+console.log("The number entered by you is: " + numType)
 
 // Question 2 (Object)
 
