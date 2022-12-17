@@ -1,45 +1,46 @@
-// Question 1 (Odd & Even)
+// // Question 1 (Odd & Even)
 
-var num = Number(prompt("Please enter the number"));
-var numType = "";
+// var num = Number(prompt("Please enter the number"));
+// var numType = "";
 
-if(num%2===1){
-    numType = "Odd"
-}
-else if (num%2===0){
-    numType = "Even"
-}
+// if(num%2===1){
+//     numType = "Odd"
+// }
+// else if (num%2===0){
+//     numType = "Even"
+// }
 
-console.log("The number entered by you is: " + numType)
+// console.log("The number entered by you is: " + numType)
 
-// Question 2 (Object)
+// // Question 2 (Object)
 
-// 1. First Name
-// 2. Last Name
-// 3. Age
-// 4. Sports
-// 5. Experience
-// 6. A method which prints the Full Name of the Athlete.
-// 7. A method which prints all the details about the Athlete.
+// // 1. First Name
+// // 2. Last Name
+// // 3. Age
+// // 4. Sports
+// // 5. Experience
+// // 6. A method which prints the Full Name of the Athlete.
+// // 7. A method which prints all the details about the Athlete.
  
-var athleteDetails = {
-    fName:"Virat",
-    lName: "Kohli",
-    age: "32",
-    sports: "cricket",
-    experience: "12 years"
-}
+// var athleteDetails = {
+//     fName:"Virat",
+//     lName: "Kohli",
+//     age: "32",
+//     sports: "cricket",
+//     experience: "12 years"
+// }
 
-var fullName = (athleteDetails.fName).concat(" " + athleteDetails.lName);
-console.log(fullName);
+// var fullName = (athleteDetails.fName).concat(" " + athleteDetails.lName);
+// console.log(fullName);
 
-var details = athleteDetails.fName
-console.log(details)
+// var details = athleteDetails.fName
+// console.log(details)
 
 var counter = 1;
-var tableNmb = Number(prompt("Please enter the number"))
-
-if(tableNmb.typeof== Number){
+var tableNmb = prompt("Please enter the number")
+// console.log(isNaN("123"),isNaN('Abcd122'),isNaN('123Abcd'))
+// console.log(typeof(+tableNmb))
+if(!isNaN(tableNmb)){
     while(counter <=10){
         console.log(tableNmb+'x'+counter+'='+tableNmb*counter)
         counter++;
@@ -50,27 +51,61 @@ else{
 }
 
 
-for(i=1; i<=100; i++){
-    if(i%2===0){
-        console.log(i)
-    }
-}
+// for(i=1; i<=10; i++){
+//     if(i%2===0){
+//         console.log(i)
+//     }
+// }
 
-// var mao=[1,2,3,4]
-// console.log(mao.toString())
+// // var mao=[1,2,3,4]
+// // console.log(mao.toString())
 
-// var out = function (x) {
-//     delete x;
-//     return x;
+// // var out = function (x) {
+// //     delete x;
+// //     return x;
+
+// // }
+// // console.log(out(9))
+
+// // var av =[1,2,3]
+// // var bc =[4,5,6]
+
+// // var cd =av.concat(bc)
+// // console.log(cd)
+
+// for(var counter =1 ; counter <=10; counter++){
+//     console.log("Printed number are: " + counter )
 
 // }
-// console.log(out(9))
 
-// var av =[1,2,3]
-// var bc =[4,5,6]
+console.log("==============================")
 
-// var cd =av.concat(bc)
-// console.log(cd)
+// var arryexmp = [101,205,307,4015,180,202,44,5,6,7,8,9,0,11,45,32,67,45,23,12,45,67,43,33,21]
+
+// console.log(arryexmp.length)
+
+// for( var counter = 0; counter <arryexmp.length; counter++){
+//     if(arryexmp[counter]%2===0){
+//         console.log("It is a even number")
+//     }
+//     else{
+//         console.log("It is a odd number")
+//     }
+// }
+
+// console.log("==============================")
+
+// var arryexmp2 = ['apple', 'mango','gauva','grapes','banana','orange','watermelon']
+// // console.log(arryexmp2.shift())
+// const arrlen = arryexmp2.length
+// for(var i=0; i<arrlen;i++){
+//     arryexmp2.pop()
+//     console.log(arryexmp2)
+
+// }
+// console.log("==============================")
+
+
 
 
 
