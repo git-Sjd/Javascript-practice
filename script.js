@@ -36,19 +36,19 @@
 // var details = athleteDetails.fName
 // console.log(details)
 
-var counter = 1;
-var tableNmb = prompt("Please enter the number")
-// console.log(isNaN("123"),isNaN('Abcd122'),isNaN('123Abcd'))
-// console.log(typeof(+tableNmb))
-if(!isNaN(tableNmb)){
-    while(counter <=10){
-        console.log(tableNmb+'x'+counter+'='+tableNmb*counter)
-        counter++;
-    }
-}
-else{
-    console.log("Please enter the valid number")
-}
+// var counter = 1;
+// // var tableNmb = prompt("Please enter the number")
+// // console.log(isNaN("123"),isNaN('Abcd122'),isNaN('123Abcd'))
+// // console.log(typeof(+tableNmb))
+// if(!isNaN(tableNmb)){
+//     while(counter <=10){
+//         console.log(tableNmb+'x'+counter+'='+tableNmb*counter)
+//         counter++;
+//     }
+// }
+// else{
+//     console.log("Please enter the valid number")
+// }
 
 
 // for(i=1; i<=10; i++){
@@ -104,6 +104,38 @@ console.log("==============================")
 
 // }
 // console.log("==============================")
+
+var array_1 = [1, 2, 3, 4, 5, 1, 3];
+var newArray=[];
+
+for(i=0; i<array_1.length;i++){
+    if (array_1[i]===1){
+        newArray.push(i)
+    }
+}
+if(newArray.length === 0){
+    console.log(-1)
+}
+else if(newArray.length ===1){
+    console.log(newArray[0])
+}
+else{
+console.log(newArray)
+    
+}
+console.log("==============================")
+
+var userInput = prompt("Please enter the number")
+
+for(i=userInput; i>=1; i--){
+    var rowValue='';
+    for(j=userInput; j>userInput-i; j--){
+        rowValue=rowValue.concat(j)
+        // console.log(j)
+    }
+    console.log(rowValue)
+}
+
 
 
 
