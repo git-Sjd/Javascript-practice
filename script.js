@@ -36,5 +36,42 @@ console.log(fullName);
 var details = athleteDetails.fName
 console.log(details)
 
+var counter = 1;
+var tableNmb = Number(prompt("Please enter the number"))
+
+if(tableNmb.typeof== Number){
+    while(counter <=10){
+        console.log(tableNmb+'x'+counter+'='+tableNmb*counter)
+        counter++;
+    }
+}
+else{
+    console.log("Please enter the valid number")
+}
+
+
+for(i=1; i<=100; i++){
+    if(i%2===0){
+        console.log(i)
+    }
+}
+
+// var mao=[1,2,3,4]
+// console.log(mao.toString())
+
+// var out = function (x) {
+//     delete x;
+//     return x;
+
+// }
+// console.log(out(9))
+
+// var av =[1,2,3]
+// var bc =[4,5,6]
+
+// var cd =av.concat(bc)
+// console.log(cd)
+
+
 
 
