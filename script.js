@@ -125,7 +125,8 @@ console.log(newArray)
 }
 console.log("==============================")
 
-var userInput = prompt("Please enter the number")
+// var userInput = prompt("Please enter the number")
+var userInput =5;
 
 for(i=userInput; i>=1; i--){
     var rowValue='';
@@ -137,6 +138,20 @@ for(i=userInput; i>=1; i--){
 }
 
 
+function getSum(){
+    console.log(10+20)
+}
+console.log(getSum)
+
+var num1=10
+
+function getSum(num2){
+    var num1=20
+    console.log(num1+num2)
+}
+getSum(20)
+
+con
 
 
 
