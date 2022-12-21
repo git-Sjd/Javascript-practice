@@ -208,22 +208,37 @@ console.log("==============================")
 // var monthlyInstalment = emiCalculator(1000,10,2);
 // console.log(monthlyInstalment)
 
-function simpleInterest(principle, rate =10, time){
-    if(principle.typeOf != Number ){
-        console.log("Plz enter a number value")
-        return;
-    }
+// function simpleInterest(principle, rate =10, time){
+//     if(principle.typeOf != Number ){
+//         console.log("Plz enter a number value")
+//         return;
+//     }
 
-    var sI= (principle*rate*time)/100;
-    var tAmount= principle+sI;
-    return tAmount;
+//     var sI= (principle*rate*time)/100;
+//     var tAmount= principle+sI;
+//     return tAmount;
+// }
+// var p = parseFloat(prompt("Enter the principle amount"))
+// // var r = parseFloat(prompt("Enter the interest rate"))
+// var t = parseFloat(prompt("Enter the time in year"))
+
+// var finalAmount = simpleInterest(p,undefined,t)
+// console.log(finalAmount)
+
+// function squareOfNumber(a){
+//     var sqr = a*a;
+//     return sqr;
+// }
+
+// var result = squareOfNumber(70);
+// console.log(result)
+
+
+function calFunction(celsius){
+    var fahrenheit = (celsius * 9/5)+32;
+    return fahrenheit;
 }
-var p = parseFloat(prompt("Enter the principle amount"))
-// var r = parseFloat(prompt("Enter the interest rate"))
-var t = parseFloat(prompt("Enter the time in year"))
-
-var finalAmount = simpleInterest(p,undefined,t)
-console.log(finalAmount)
-
+var c = parseFloat(prompt("Enter the temp"))
+console.log(calFunction(c)) 
 
 
