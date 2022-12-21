@@ -242,3 +242,10 @@ var c = parseFloat(prompt("Enter the temp"))
 console.log(calFunction(c)) 
 
 
+function areaOfTriangle(height, base){
+    var area = 1/2*height*base
+    return area;
+}
+
+
+
