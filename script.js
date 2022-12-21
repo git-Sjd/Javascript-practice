@@ -105,55 +105,125 @@ console.log("==============================")
 // }
 // console.log("==============================")
 
-var array_1 = [1, 2, 3, 4, 5, 1, 3];
-var newArray=[];
+// var array_1 = [1, 2, 3, 4, 5, 1, 3];
+// var newArray=[];
 
-for(i=0; i<array_1.length;i++){
-    if (array_1[i]===1){
-        newArray.push(i)
-    }
-}
-if(newArray.length === 0){
-    console.log(-1)
-}
-else if(newArray.length ===1){
-    console.log(newArray[0])
-}
-else{
-console.log(newArray)
+// for(i=0; i<array_1.length;i++){
+//     if (array_1[i]===1){
+//         newArray.push(i)
+//     }
+// }
+// if(newArray.length === 0){
+//     console.log(-1)
+// }
+// else if(newArray.length ===1){
+//     console.log(newArray[0])
+// }
+// else{
+// console.log(newArray)
     
-}
-console.log("==============================")
+// }
+// console.log("==============================")
 
 // var userInput = prompt("Please enter the number")
-var userInput =5;
+// var userInput =5;
 
-for(i=userInput; i>=1; i--){
-    var rowValue='';
-    for(j=userInput; j>userInput-i; j--){
-        rowValue=rowValue.concat(j)
-        // console.log(j)
+// for(i=userInput; i>=1; i--){
+//     var rowValue='';
+//     for(j=userInput; j>userInput-i; j--){
+//         rowValue=rowValue.concat(j)
+//         // console.log(j)
+//     }
+//     console.log(rowValue)
+// }
+
+
+// function getSum(){
+//     console.log(10+20)
+// }
+// console.log(getSum)
+
+// var num1=10
+
+// function getSum(num2){
+//     var num1=20
+//     console.log(num1+num2)
+// }
+// getSum(20)
+
+// Input: [3, 2, 1, 4, 5, 45]
+// Output: [1, 2, 3, 4, 5, 45]
+
+// var input=[3, 2, 1, 4, 5, 45]
+
+// input.sort(function(a,b) {return(a-b)})
+// console.log(input)
+
+// var minVal='0';
+// var newAry=[];
+
+// for(i=0; i<input.length; i++){
+//     if(input[i]>minVal){
+
+//         console.log(newAry.push(input[i])) 
+//     }
+// }
+
+// var str1='LISTEN'
+// var str2='SILENT'
+
+// if(str1.length !== str2.length){
+//     console.log("Not a Anagram")
+// }
+// else{
+//     var abc=str1.slice('')
+//     console.log(abc.sort(a,b) {}=> a-b})
+// }
+
+// var str4='Hello'
+// var emptyStr = ''
+
+// for(var i=str4.length -1; i>=0; i--){
+//     emptyStr = emptyStr+str4[i]
+
+// }
+// console.log(emptyStr)
+
+// var naturalNumber = [1,2,3,4,5,7,8,4,9,10]
+
+// var emptyArray =[]
+
+// for(i=1; i<=naturalNumber.length; i++){
+//     if()
+// }
+
+
+// function emiCalculator(p,r,t){
+//     var ci = (p*r/100)**t;
+//     var totalAmount= p+ci;
+//     var emi =totalAmount/12;
+//     return emi;
+// }
+
+// var monthlyInstalment = emiCalculator(1000,10,2);
+// console.log(monthlyInstalment)
+
+function simpleInterest(principle, rate =10, time){
+    if(principle.typeOf != Number ){
+        console.log("Plz enter a number value")
+        return;
     }
-    console.log(rowValue)
+
+    var sI= (principle*rate*time)/100;
+    var tAmount= principle+sI;
+    return tAmount;
 }
+var p = parseFloat(prompt("Enter the principle amount"))
+// var r = parseFloat(prompt("Enter the interest rate"))
+var t = parseFloat(prompt("Enter the time in year"))
 
-
-function getSum(){
-    console.log(10+20)
-}
-console.log(getSum)
-
-var num1=10
-
-function getSum(num2){
-    var num1=20
-    console.log(num1+num2)
-}
-getSum(20)
-
-con
-
-
+var finalAmount = simpleInterest(p,undefined,t)
+console.log(finalAmount)
 
 
 
