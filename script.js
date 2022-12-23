@@ -247,5 +247,6 @@ function areaOfTriangle(height, base){
     return area;
 }
 
+console.log(areaOfTriangle(10,20))
 
 
