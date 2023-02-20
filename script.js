@@ -21,7 +21,7 @@
 // // 5. Experience
 // // 6. A method which prints the Full Name of the Athlete.
 // // 7. A method which prints all the details about the Athlete.
- 
+
 // var athleteDetails = {
 //     fName:"Virat",
 //     lName: "Kohli",
@@ -121,7 +121,7 @@ console.log("==============================")
 // }
 // else{
 // console.log(newArray)
-    
+
 // }
 // console.log("==============================")
 
@@ -234,19 +234,38 @@ console.log("==============================")
 // console.log(result)
 
 
-function calFunction(celsius){
-    var fahrenheit = (celsius * 9/5)+32;
-    return fahrenheit;
+// function calFunction(celsius){
+//     var fahrenheit = (celsius * 9/5)+32;
+//     return fahrenheit;
+// }
+// var c = parseFloat(prompt("Enter the temp"))
+// console.log(calFunction(c)) 
+
+
+// function areaOfTriangle(height, base){
+//     var area = 1/2*height*base
+//     return area;
+// }
+
+// console.log(areaOfTriangle(10,20))
+
+
+
+// var navbar = document.createElement("div");
+// navbar.innerText = "this is test case";
+// body = document.body
+// body.append('navbar')
+// console.log(navbar)
+
+var menu = document.getElementsByClassName("test")
+console.log(menu)
+var btn = document.getElementsByTagName("button")
+console.log("gggd", btn)
+
+function onMouseEnter() {
+    console.log("hygg")
+    menu.style.backgroundColor = "red"
 }
-var c = parseFloat(prompt("Enter the temp"))
-console.log(calFunction(c)) 
-
-
-function areaOfTriangle(height, base){
-    var area = 1/2*height*base
-    return area;
-}
-
-console.log(areaOfTriangle(10,20))
-
+menu.mouseenter = onMouseEnter
+//btn.addEventListener("click", onMouseEnter)
 
