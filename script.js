@@ -225,10 +225,10 @@ console.log("==============================")
 // var finalAmount = simpleInterest(p,undefined,t)
 // console.log(finalAmount)
 
-// function squareOfNumber(a){
-//     var sqr = a*a;
-//     return sqr;
-// }
+function squareOfNumber(a) {
+    var sqr = a * a;
+    return sqr;
+}
 
 // var result = squareOfNumber(70);
 // console.log(result)
@@ -267,5 +267,6 @@ function onMouseEnter() {
     menu.style.backgroundColor = "red"
 }
 menu.mouseenter = onMouseEnter
+
 //btn.addEventListener("click", onMouseEnter)
 
